@@ -135,5 +135,136 @@ namespace ProjetoBicudo
                 btnLagoa.BackColor = Color.Red;
             btnLagoa.Enabled = false;
         }
+
+        private void btnDourado_Click(object sender, EventArgs e)
+        {
+            txtpeixe.Text += " " + btnDourado.Text;
+            if (btnDourado.BackColor == Color.Red)
+            {
+                btnDourado.BackColor = Color.Thistle;
+                txtpeixe.Text = txtpeixe.Text.Replace(btnDourado.Text, "");
+            }
+            else
+                btnDourado.BackColor = Color.Red;
+            btnDourado.Enabled = false;
+
+        }
+
+        private void btnNada_Click(object sender, EventArgs e)
+        {
+            txtpeixe.Text += " " + btnNada.Text;
+            if (btnNada.BackColor == Color.Red)
+            {
+                btnNada.BackColor = Color.Thistle;
+                txtpeixe.Text = txtpeixe.Text.Replace(btnNada.Text, "");
+            }
+            else
+                btnNada.BackColor = Color.Red;
+            btnNada.Enabled = false;
+        }
+
+        private void btnOPeixe_Click(object sender, EventArgs e)
+        {
+            txtpeixe.Text += " " + btnOPeixe.Text;
+            if (btnOPeixe.BackColor == Color.Red)
+            {
+                btnOPeixe.BackColor = Color.Thistle;
+                txtpeixe.Text = txtpeixe.Text.Replace(btnOPeixe.Text, "");
+            }
+            else
+                btnOPeixe.BackColor = Color.Red;
+            btnOPeixe.Enabled = false;
+        }
+
+        private void btnNa_Click(object sender, EventArgs e)
+        {
+            txtpeixe.Text += " " + btnNa.Text;
+            if (btnNa.BackColor == Color.Red)
+            {
+                btnNa.BackColor = Color.Thistle;
+                txtpeixe.Text = txtpeixe.Text.Replace(btnNa.Text, "");
+            }
+            else
+                btnNa.BackColor = Color.Red;
+            btnNa.Enabled = false;
+        }
+
+        private void btnJoaninha_Click(object sender, EventArgs e)
+        {
+            txtjoaninha.Text += " " + btnJoaninha.Text;
+            if (btnJoaninha.BackColor == Color.Red)
+            {
+                btnJoaninha.BackColor = Color.Thistle;
+                txtjoaninha.Text = txtpeixe.Text.Replace(btnJoaninha.Text, "");
+            }
+            else
+                btnJoaninha.BackColor = Color.Red;
+            btnJoaninha.Enabled = false;
+        }
+
+        private void btnInseto_Click(object sender, EventArgs e)
+        {
+            txtjoaninha.Text += " " + btnInseto.Text;
+            if (btnInseto.BackColor == Color.Red)
+            {
+                btnInseto.BackColor = Color.Thistle;
+                txtjoaninha.Text = txtpeixe.Text.Replace(btnInseto.Text, "");
+            }
+            else
+                btnInseto.BackColor = Color.Red;
+            btnInseto.Enabled = false;
+        }
+
+        private void btnPequeno_Click(object sender, EventArgs e)
+        {
+            txtjoaninha.Text += " " + btnPequeno.Text;
+            if (btnPequeno.BackColor == Color.Red)
+            {
+                btnPequeno.BackColor = Color.Thistle;
+                txtjoaninha.Text = txtpeixe.Text.Replace(btnPequeno.Text, "");
+            }
+            else
+                btnPequeno.BackColor = Color.Red;
+            btnPequeno.Enabled = false;
+        }
+
+        private void btnE_Click(object sender, EventArgs e)
+        {
+            txtjoaninha.Text += " " + btnE.Text;
+            if (btnE.BackColor == Color.Red)
+            {
+                btnE.BackColor = Color.Thistle;
+                txtjoaninha.Text = txtpeixe.Text.Replace(btnE.Text, "");
+            }
+            else
+                btnE.BackColor = Color.Red;
+            btnE.Enabled = false;
+        }
+
+        private void btnUm_Click(object sender, EventArgs e)
+        {
+            txtjoaninha.Text += " " + btnUm.Text;
+            if (btnUm.BackColor == Color.Red)
+            {
+                btnUm.BackColor = Color.Thistle;
+                txtjoaninha.Text = txtpeixe.Text.Replace(btnUm.Text, "");
+            }
+            else
+                btnUm.BackColor = Color.Red;
+            btnUm.Enabled = false;
+        }
+
+        private void btnAJoaninha_Click(object sender, EventArgs e)
+        {
+            txtjoaninha.Text += " " + btnAJoaninha.Text;
+            if (btnAJoaninha.BackColor == Color.Red)
+            {
+                btnAJoaninha.BackColor = Color.Thistle;
+                txtjoaninha.Text = txtpeixe.Text.Replace(btnAJoaninha.Text, "");
+            }
+            else
+                btnAJoaninha.BackColor = Color.Red;
+            btnAJoaninha.Enabled = false;
+        }
     }
 }
